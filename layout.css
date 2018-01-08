@@ -1,0 +1,288 @@
+    body {
+        margin: 0;
+        background-image: url(jpg/wood.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    header {
+        margin: 0px;
+        width: auto;
+        height: 50px;
+        background-color: #de7575;
+        color: black;
+    }
+
+    header nav {
+        text-align: left;
+        padding: 15px 30px;
+    }
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+        font-family: "Open Sans Condensed";
+        padding: 5px;
+    }
+
+    header nav a:hover {
+        text-decoration: overline;
+        text-decoration-color: #00131b;
+        font-weight: bolder;
+        color: black;
+    }
+    /* PORTFOLIO */
+
+    #splash {
+        margin: 0;
+        background-image: url(jpg/pattern.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: white;
+        height: 40vw;
+    }
+
+    #splash2 {
+        background-image: url(jpg/wood.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #splash3 {
+        margin: 0;
+        background-image: url(jpg/niko.jpg);
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-color: ;
+        height: 40vw;
+    }
+
+    h2 {
+        margin: 0;
+        padding: 15vw 10vw 5vw;
+        text-align: center;
+        font-family: "DIN Condensed";
+        font-weight: lighter;
+        font-size: 10vw;
+        color: #000;
+    }
+
+    h3 {
+        font-family: "Open Sans Condensed";
+        margin: 0;
+        padding: 15px 0 0;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    #container_splash {
+        padding: 0vw 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #flexbox_splash {
+        align-content: center;
+        flex-basis: 15vw;
+        height: 15vw;
+        background-color: #de7575;
+        cursor: pointer;
+        border-radius: 40%;
+    }
+
+    .flexbox_splash1 {
+        background-image: url(jpg/Grundhtml.svg);
+        background-repeat: no-repeat;
+    }
+
+    .flexbox_splash1:hover {
+        background-color: whitesmoke;
+        transform: scale(1.15);
+    }
+
+    .flexbox_splash2 {
+        background-image: url(jpg/Grundvid.svg);
+        background-repeat: no-repeat;
+    }
+
+    .flexbox_splash2:hover {
+        background-color: whitesmoke;
+        transform: scale(1.15);
+    }
+
+    .flexbox_splash3 {
+        background-image: url(jpg/anim.svg);
+        background-repeat: no-repeat;
+    }
+
+    .flexbox_splash3:hover {
+        background-color: whitesmoke;
+        transform: scale(1.15);
+    }
+
+    .flexbox_splash4 {
+        background-image: url(jpg/GrundUX.svg);
+        background-repeat: no-repeat;
+    }
+
+    .flexbox_splash4:hover {
+        background-color: whitesmoke;
+        transform: scale(1.15);
+    }
+
+    h1 {
+        font-family: "Open Sans Condensed";
+        text-align: left;
+        margin: 0;
+        padding: 5px 0 0 10px;
+    }
+
+    h4 {
+        font-family: "Open Sans Condensed";
+        text-align: center;
+        margin: 0;
+        padding: 5px 0 0 10px;
+        color: whitesmoke
+    }
+
+    h5 {
+        font-family: "Open Sans Condensed";
+        text-align: left;
+        margin: 0;
+        padding: 5px 0 0 10px;
+        color: black;
+        font-weight: bold;
+    }
+
+    #grundhtml {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #ddf0ee;
+    }
+
+    #grundhtml h1 {
+        color: black;
+    }
+
+    #grundhtml #p2 {
+        padding: 0 0px 20px 10px;
+        color: black;
+        font-family: "Open Sans Condensed";
+        text-align: justify;
+    }
+
+    #velkommen {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #de7575;
+    }
+
+    #velkommen h1 {
+        color: whitesmoke;
+    }
+
+    #velkommen #p2 {
+        padding: 0 0px 0px 10px;
+        color: whitesmoke;
+        font-family: "Open Sans Condensed";
+        text-align: center;
+    }
+
+    #video {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #ddf0ee;
+        text-align: left;
+    }
+
+    #video h1 {
+        color: black;
+        font-family: "Open Sans Condensed";
+    }
+
+    #video #p2 {
+        padding: 0 0px 20px 10px;
+        color: black;
+        font-family: "Open Sans Condensed";
+        text-align: justify;
+    }
+
+    #cv {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #ddf0ee;
+        text-align: left;
+    }
+
+    #cv h1 {
+        color: black;
+        font-family: "Open Sans Condensed";
+    }
+
+    #cv #p2 {
+        padding: 0 0px 20px 10px;
+        color: black;
+        font-family: "Open Sans Condensed";
+        text-align: justify;
+    }
+
+    #animation {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+        background-color: #ddf0ee;
+    }
+
+    #animation h1 {
+        color: black;
+        font-family: "Open Sans Condensed";
+    }
+
+    #animation #p2 {
+        padding: 0 0px 20px 10px;
+        color: black;
+        font-family: "Open Sans Condensed";
+        text-align: justify;
+    }
+
+    #grundux {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #ddf0ee;
+    }
+
+    #grundux h1 {
+        color: black;
+    }
+
+    #grundux #p2 {
+        padding: 0 0px 20px 10px;
+        color: black;
+        font-family: "Open Sans Condensed";
+        text-align: justify;
+    }
+
+    #footer {
+        margin: 0px;
+        padding: 0px;
+        height: 50px;
+        background-color: #de7575;
+        color: whitesmoke;
+        text-align: center;
+        font-family: "Open Sans Condensed";
+    }
